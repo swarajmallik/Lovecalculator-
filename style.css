@@ -1,0 +1,142 @@
+#container{
+    margin-top: 6rem;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 2rem;
+    border: 3px solid rgb(189, 28, 141);
+    background-color: blur(3px);
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.404);
+    
+}
+#btn{
+    margin: 20px 0px 20px;
+    font-size: 1rem;
+    padding: 9px;
+    border-radius: 7px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#box1, #box2, #box3 {
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+
+#container input{
+    font-size: 1.4rem;
+    padding: 5px;
+    background: transparent;
+    /* color: rgb(206, 15, 158); */
+}
+#container h1{
+    padding: 0px 0px 3px;
+    color: rgb(45, 216, 23);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);
+    font-family: 'Great Vibes', cursive;
+}
+body{
+background: url('anime.jpg') center center/cover no-repeat 
+;
+
+}
+::-webkit-input-placeholder{
+    color: rgb(223, 79, 199);
+}
+
+
+
+#box3{
+    color: rgb(248, 10, 129) ;
+    border: 2px solid rgb(241, 72, 185);
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.671);
+}
+#yname{
+    color: red ;
+    border: 2px solid rgb(241, 72, 185);
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.534);
+}
+#lname{
+    color: red ;
+    border: 2px solid rgb(241, 72, 185);
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.534);
+}
+
+#btn{
+    color: white;
+    background-color: red;
+    border: 1px solid white;
+}
+
+
+#btn:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    
+}
+
+.heading{
+    color: red;
+    font-size: 5rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.love{
+    color: red;
+}
+
+#alert{
+    border: 2px solid pink;
+    background-color: pink;
+    padding: 10px;
+    position: relative;
+    top: -34rem;
+}
+.footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+    padding: .2rem;
+    width: 98rem;
+    margin-top: 3rem;
+}
+
+.heading{
+    font-size: 5em;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+    
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+                #e45ff0, #d30fec);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+                #e73c3c, #ff0000);
+        -webkit-background-clip: text;
+    }
+}
+
+@media  (max-width:400px) {
+    
+    #lname{
+        margin-top: .7rem;
+    }
+    .heading{
+        text-align: center;
+    }
+}
